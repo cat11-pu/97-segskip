@@ -1,0 +1,10 @@
+{
+  "bits": 16,
+  "skip_invariant": true,
+  "probes": ["a", "d", "z"],
+  "segments": [
+    {"seg": "s1", "keys": ["a", "b"]},
+    {"seg": "s2", "keys": ["c", "d"]},
+    {"seg": "s3", "keys": ["e", "f"]}
+  ]
+}
