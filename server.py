@@ -13,7 +13,7 @@ ROUTES = {
     "/get": lambda payload: ENGINE.get(payload["key"]),
     "/build": lambda payload: ENGINE.build_filters(),
     "/lookup": lambda payload: ENGINE.lookup(payload["key"]),
-    "/recover": lambda payload: ENGINE.restore(),
+    "/recover": lambda payload: ENGINE.restore(ENGINE.persist()),
 }
 
 
